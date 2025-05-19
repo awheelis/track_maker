@@ -1,7 +1,7 @@
 import numpy as np
 from glob import glob
 import matplotlib.pyplot as plt
-
+import os 
 splatter = np.load("data/splatter.npy")
 os.makedirs("plots", exist_ok=True)
 
